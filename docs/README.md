@@ -4,7 +4,10 @@
 
 ```bash
 # Install dependencies.
-pip install -r requirements-docs.txt
+cd docs
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements-docs.txt
 
 # Build the docs.
 make clean

@@ -1,5 +1,6 @@
 ## Config arguments Explanation
 ### Model configuration arguments
+
 | Name | Type | Description | Default Value |
 | --- | --- | --- | --- |
 | model.config_path | str | Path to the model huggingface configuration, like `config.json` | model.model_path |
@@ -30,6 +31,7 @@
 | data.prefetch_factor | int | Number of samples preprocessed by the dataloader. | 2 |
 
 #### Training configuration arguments
+
 | Name | Type | Description | Default Value |
 | --- | --- | --- | --- |
 | train.output_dir | str | Path to save the model. | Required |
@@ -85,6 +87,7 @@
 | train.max_steps | int | Number of steps per training epoch (only used for debugging). | None |
 
 ### Inference configuration arguments
+
 | Name | Type | Description | Default Value |
 | --- | --- | --- | --- |
 | infer.model_path | str | Path to the model parameter file. | Required |

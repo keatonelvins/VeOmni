@@ -13,7 +13,7 @@
   - [⚙️ Core API](#️-core-api)
   - [🛠️ Support Ulysses for a New Model](#️-support-ulysses-for-a-new-model)
 
-## 📚 Overview
+## 📚 Ulysses Overview
 In this tutorial, we introduce the implementation of DeepSpeed-Ulysses for efficient long-sequence training in VeOmni. The Ulysses method optimizes memory usage by splitting both the input tensor and intermediate activations along the sequence dimension. This innovative approach significantly enhances memory efficiency, enabling the training of models with longer sequence lengths.
 
 Reference Paper: [DeepSpeed Ulysses: System Optimizations for Enabling Training of Extreme Long Sequence Transformer Models](https://arxiv.org/abs/2309.14509)
