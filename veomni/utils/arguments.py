@@ -376,6 +376,10 @@ class TrainingArguments:
         default=True,
         metadata={"help": "Use wandb to log experiment."},
     )
+    wandb_entity: Optional[str] = field(
+        default=None,
+        metadata={"help": "Wandb entity name."},
+    )
     wandb_project: str = field(
         default="VeOmni",
         metadata={"help": "Wandb project name."},

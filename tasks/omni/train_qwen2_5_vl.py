@@ -263,6 +263,7 @@ def main():
     if args.train.global_rank == 0:
         if args.train.use_wandb:
             wandb.init(
+                entity=args.train.wandb_entity,
                 project=args.train.wandb_project,
                 name=args.train.wandb_name,
                 config={**vars(args.model), **vars(args.data), **vars(args.train)},  # flatten dict
