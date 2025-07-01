@@ -57,6 +57,7 @@ BASE_REQUIRE = [
     "transformers[torch]>=4.46.2,<=4.49.0",
     "tiktoken>=0.9.0",
     "blobfile>=3.0.0",
+    "einops",
 ]
 
 
